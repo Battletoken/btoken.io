@@ -1,0 +1,229 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+
+.principal{
+	display: flex;
+	flex-direction: column;
+}
+
+
+.logo{
+	
+	display: flex;
+	width: 50%;
+	justify-content: flex-start;
+	align-items: center;
+	font-size: 1.3em;
+	color: #434343;
+}
+
+.logo > strong{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-top: solid 2px;
+	border-bottom: solid 2px;
+} 
+
+.icon{
+	width: 50px;
+}
+
+.menu{
+	width: 50%;
+}
+
+.menu > ul{
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+}
+
+li a{
+	cursor: pointer;
+	color: #434343;
+	transition: all 0.3s;
+	border:solid 1px white;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+li a:hover{
+	color: red;
+	border-color: black;
+}
+
+.navbar{
+	padding-top: 10px;
+	padding-bottom: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.introduce{
+	background-color: #f3f3f3;
+	padding-top: 90px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 90px;
+	background: url('');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.big-lemma{
+	font-size: 3em;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.sub-lemma{
+	font-size: 0.8em;
+	color: #434343;
+}
+
+.button{
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 20px;
+	padding: 15px;
+	background-color: black;
+	color: white;
+	border: 0;
+	border-radius: 5px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+.button:hover{
+	background-color: red;
+}
+
+small{
+	font-size: 0.7em;
+	color: white;
+}
+
+small1{
+	font-size: 0.7em;
+	color: black;
+}
+
+
+
+.description{
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	background-color: black;
+	color: white;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 50px;
+}
+
+.description > div{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.logoD{
+	font-size: 1.6em;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.textD{
+	font-size: 0.9em;
+	color: #f3f3f3;
+	text-align: justify;
+}
+
+.text1{
+	font-size: 0.9em;
+	color: white;
+	text-align: justify;
+}
+
+
+.opinion{
+	padding-top: 130px;
+	padding-bottom: 130px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url('https://i.ibb.co/2K4CZmr/BANNER-bottom.png');
+	background-position: center;
+	background-origin: initial;
+	background-repeat: no-repeat;
+	background-size: cover;
+	transform:scaleX(-1) scaleY(-1);
+}
+
+.opinion > .inside{
+	transform:scaleX(-1) scaleY(-1);
+	display: flex;
+	flex-direction: row;
+	width: 50%
+}
+
+.imageO{
+	margin-right: 30px;
+}
+
+img{
+	width: 100px;
+	border-radius: 50%;
+}
+
+footer{
+	padding-left: 30px;
+	background-color: #626262;
+	height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: white;
+}
+
+a{
+	color: #f3f3f3;
+	text-decoration: none;
+	border:solid 1px #626262;
+	padding: 3px;
+	transition: all 0.3s;
+	border-radius: 5px;
+}
+
+
+a1{
+	color: #f3f3f3;
+	text-decoration: none;
+	padding: 3px;
+	transition: all 0.3s;
+	border-radius: 5px;
+}
+
+a:hover{
+	border-color: white;
+}
+
+
+footer > div{
+	width: 30%
+}
+
