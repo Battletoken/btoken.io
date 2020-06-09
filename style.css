@@ -47,9 +47,9 @@ body{
 
 li a{
 	cursor: pointer;
-	color: #434343;
+	color: white;
 	transition: all 0.3s;
-	border:solid 1px white;
+	border:solid 0.000000001px;
 	padding: 5px;
 	border-radius: 5px;
 }
