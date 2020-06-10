@@ -220,11 +220,54 @@ a1{
 }
 
 a:hover{
-	border-color: white;
+	border-color: red;
 }
 
 
 footer > div{
 	width: 15%
 }
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:959px){
+
+
+.description{
+	padding-left: none;
+	padding-right: none;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	background-color: black;
+	color: white;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 10%;
+}
+
+.description > div{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+footer{
+	padding-left: 30px;
+	background-color: black;
+	height: 600px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: white;
+}
+
+}
+
 
