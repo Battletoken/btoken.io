@@ -86,11 +86,12 @@ li a:hover{
 	font-size: 3em;
 	font-weight: bold;
 	margin-bottom: 15px;
+	Color: white;
 }
 
 .sub-lemma{
 	font-size: 0.8em;
-	color: #434343;
+	color: white;
 }
 
 .button{
@@ -117,7 +118,7 @@ small{
 
 small1{
 	font-size: 0.7em;
-	color: black;
+	color: white;
 }
 
 
@@ -224,6 +225,6 @@ a:hover{
 
 
 footer > div{
-	width: 30%
+	width: 15%
 }
 
