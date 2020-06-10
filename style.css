@@ -3,6 +3,7 @@ body{
 	padding: 0;
 	margin: 0;
 	overflow-x: hidden;
+  background-color:black;
 }
 
 .principal{
@@ -122,7 +123,6 @@ small1{
 }
 
 
-
 .description{
 	padding-left: 50px;
 	padding-right: 50px;
@@ -141,6 +141,8 @@ small1{
 	justify-content: center;
 	align-items: center;
 }
+  
+
 
 .logoD{
 	font-size: 1.6em;
@@ -164,7 +166,10 @@ small1{
 .opinion{
 	padding-top: 130px;
 	padding-bottom: 130px;
+  padding-right: 0;
+  padding-left: 0;
 	display: flex;
+  width: 100%;
 	justify-content: center;
 	align-items: center;
 	background: url('https://i.ibb.co/2K4CZmr/BANNER-bottom.png');
@@ -188,11 +193,11 @@ small1{
 
 img{
 	width: 100px;
-	border-radius: 50%;
+	border-radius: 60%;
 }
 
 footer{
-	padding-left: 30px;
+	padding-left: 50px;
 	background-color: black;
 	height: 200px;
 	display: flex;
@@ -225,7 +230,7 @@ a:hover{
 
 
 footer > div{
-	width: 15%
+	width: 15%;
 }
 
 
